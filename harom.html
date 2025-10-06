@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kapcsolat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="egystyle.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="logo.png" width="30" height="30" alt="Logo" /> Cégünk
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navmenu"
+      aria-controls="navmenu"
+      aria-expanded="false"
+      aria-label="Menü váltás"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="egy.html">Bemutatkozás</a></li>
+        <li class="nav-item"><a class="nav-link" href="ketto.html">Munkatársak</a></li>
+        <li class="nav-item"><a class="nav-link active" href="harom.html">Kapcsolat</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Tartalom -->
+  <main class="container mt-4">
+    <h1>Kapcsolat</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Elérhetőségeink</h3>
+        <p>Cím: 1111 Budapest, Fő utca 1.</p>
+        <p>Telefon: +36 1 234 5678</p>
+        <p>Email: info@cegunk.hu</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Kapcsolati űrlap</h3>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Név</label>
+            <input type="text" class="form-control" id="name" placeholder="Név" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email cím</label>
+            <input type="email" class="form-control" id="email" placeholder="Email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Üzenet</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Üzenet" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Küldés</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h3>Hol talál minket?</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.591941210945!2d19.04023571605479!3d47.497913979185455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc1f0f4c123b%3A0x400ebbde4902010!2sBudapest!5e0!3m2!1shu!2shu!4v1696583812345!5m2!1shu!2shu"
+        width="100%"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="egy.js"></script>
+</body>
+</html>
