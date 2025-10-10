@@ -1,7 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color:bisque;
-  font-size: x-large;
+  font-size:  xx-large;
 }
 
 h1, h3 {
@@ -16,6 +16,7 @@ h1, h3 {
 form input, form textarea {
   resize: none;
 }
+
 
 
 
