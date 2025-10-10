@@ -1,6 +1,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color:bisque;
+  font-size: x-large;
 }
 
 h1, h3 {
@@ -15,18 +16,8 @@ h1, h3 {
 form input, form textarea {
   resize: none;
 }
-.kep{
-    width: 40%;
-    border-radius: 10px;
-    transition: width 0.5s ease, background-color 0.5s ease, boreder 0.5s ease, box-shadow 0.5s ease;
-}
 
-.kep:hover{
-    background-color: darkcyan;
-    border: 1px solid darkcyan;
-    box-shadow: 0 0 15px darkcyan;
-    width: 80%;
-}
+
 
 
 
