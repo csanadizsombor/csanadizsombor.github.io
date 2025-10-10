@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:bisque;
 }
 
 h1, h3 {
@@ -14,8 +15,6 @@ h1, h3 {
 form input, form textarea {
   resize: none;
 }
-body{
-  background-color:bisque;
-  font-family: 'Times New Roman', Times, serif;
-}
+
+
 
